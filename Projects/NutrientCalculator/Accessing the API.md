@@ -18,6 +18,7 @@ http://api.nal.usda.gov/usda/ndb/search/?format=json&q=butter&sort=n&max=25&offs
 ```
 
 If we break this API request down into its parts, we end up with:
+
 1. `http://api.nal.usda.gov/usda/ndb/`
 1. `search/`
 1. `?`
