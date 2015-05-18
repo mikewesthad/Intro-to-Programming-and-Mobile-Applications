@@ -8,7 +8,7 @@ $(document).ready(function() {
     sort: "n",
     max: "25",
     offset: "0",
-    api_key: "nGaK10u7f4V6pugwf4goIeJtFo6fLKSBKjt4YlI8"
+    api_key: APIKeys.NDB
   };
 
   function handler(data, status) {
