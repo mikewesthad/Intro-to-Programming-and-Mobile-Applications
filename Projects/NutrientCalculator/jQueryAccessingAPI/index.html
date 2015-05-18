@@ -2,13 +2,24 @@
 <html>
 	<head>
 	<meta charset="UTF-8">
-	<title>title</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<title>jQuery API Example</title>
 	</head>
 	
 	<body>
+		<h1>Search Results</h1>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="main.js"></script>
+		<div id="requestInfo">
+			<h2 id="requestStatus"></h2>
+			<h2 id="version"></h2>
+			<h2 id="query"></h2>
+		</div>
+
+		<ul id="searchResults"></ul>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="main.js"></script>
 	</body>
 </html>
  
